@@ -1,0 +1,57 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+:root {
+    --white: #FFFFFF;
+    --escuro: #262525;
+    --gap: 3rem;
+}
+
+/*
+font-family: 'Montserrat', sans-serif;
+font-family: 'Open Sans', sans-serif;
+*/
+
+html {
+    font-size: 62.5%; /*tamanho da font padrão*/
+}
+
+body {
+    font-family: 'Open Sans', sans-serif;
+    font-size: 1.6rem;
+}
+
+h1, h2, h3, h4, h5, h6 {
+    font-family: 'Montserrat', sans-serif;
+}
+
+h1 {
+    font-size: 4rem;
+    text-transform: uppercase;
+}
+
+/*main-bg - background da pagina*/
+.main-bg {
+    background-image: url(img/bacground.png);
+    background-size: cover;
+    background-position: center center;
+    background-repeat: no-repeat; /*Eu coloquei*/
+    color: var(--white);
+}
+
+.main-bg-white {
+    color: var(--escuro);
+}
+
+/*conteinar princial*/
+.main-content {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: var(--gap);
+}
+
+.section-tamanho-vh {
+    min-height: 100vh;
+}
